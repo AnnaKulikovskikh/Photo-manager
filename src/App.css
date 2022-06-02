@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+.file-container{
+  width: 400px;
+  height: 200px;
+  position: relative;
+  margin: 40px;
+}
+
+.input {
+  position: absolute;
+  top: 10; left: 10; bottom: 0; right: 0; margin: 0;
+  opacity: 0.1;
+  width: 400px;
+}
+
+.select {
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0; margin: 0;
+  width: 400px;
+  height: 200px;
+  border: 2px black solid;
+  border-radius: 10px;
+  text-align: center;
+  background: #eee;
+  pointer-events: none;
+}
+
+.preview-box {
+  position: relative;
+  top: 220px;
+  display: flex;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.preview {
+  display: center;
+  width: 23%;
+  margin-right: 5%;
+  border: 2px black solid;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.cross {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  border: 2px black solid;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+input {
+  
+}
